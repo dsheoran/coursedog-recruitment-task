@@ -7,3 +7,6 @@ screenshots and videos only for failed scenarios will appear in project director
 
 after run the test report will be available in project directory:
 - `./cypress/report/mochawesome-report`
+
+please find the bug report at:
+- `./cypress/bug-report`
