@@ -1,0 +1,220 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 7,
+    "passes": 7,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-09-08T13:45:14.930Z",
+    "end": "2021-09-08T13:46:06.179Z",
+    "duration": 51249,
+    "testsRegistered": 7,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "7744d577-7203-468e-a379-d9ecebacbe60",
+      "title": "",
+      "fullFile": "cypress/integration/Events.feature",
+      "file": "cypress/integration/Events.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "0c869170-60cf-4da0-8e82-f225c25e682c",
+          "title": "Events",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Select a date from calendar to see events on that day",
+              "fullTitle": "Events Select a date from calendar to see events on that day",
+              "timedOut": null,
+              "duration": 9754,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "cd574bb6-037f-4bf7-96bd-3d1bd7902d88",
+              "parentUUID": "0c869170-60cf-4da0-8e82-f225c25e682c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Check for a date with no events",
+              "fullTitle": "Events Check for a date with no events",
+              "timedOut": null,
+              "duration": 4301,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "8fff449e-fcc2-40de-a92f-dab728327d0b",
+              "parentUUID": "0c869170-60cf-4da0-8e82-f225c25e682c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Check for a date with an event",
+              "fullTitle": "Events Check for a date with an event",
+              "timedOut": null,
+              "duration": 5176,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "63443d17-8171-498f-aa98-d1ea9d7497be",
+              "parentUUID": "0c869170-60cf-4da0-8e82-f225c25e682c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Open Featured Events and event details",
+              "fullTitle": "Events Open Featured Events and event details",
+              "timedOut": null,
+              "duration": 6576,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "112385fc-4170-4301-b9ce-48beca6fb916",
+              "parentUUID": "0c869170-60cf-4da0-8e82-f225c25e682c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Search an Event",
+              "fullTitle": "Events Search an Event",
+              "timedOut": null,
+              "duration": 5474,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "1a502259-c824-49de-b6e1-7e27d6a9713e",
+              "parentUUID": "0c869170-60cf-4da0-8e82-f225c25e682c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Filter events by Organization",
+              "fullTitle": "Events Filter events by Organization",
+              "timedOut": null,
+              "duration": 5103,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "62accc1e-0c87-4b86-bd3b-c22a583b3f96",
+              "parentUUID": "0c869170-60cf-4da0-8e82-f225c25e682c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Check for an invalid date",
+              "fullTitle": "Events Check for an invalid date",
+              "timedOut": null,
+              "duration": 6478,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "5e6e037e-f464-457c-99c7-f04af47cf520",
+              "parentUUID": "0c869170-60cf-4da0-8e82-f225c25e682c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "cd574bb6-037f-4bf7-96bd-3d1bd7902d88",
+            "8fff449e-fcc2-40de-a92f-dab728327d0b",
+            "63443d17-8171-498f-aa98-d1ea9d7497be",
+            "112385fc-4170-4301-b9ce-48beca6fb916",
+            "1a502259-c824-49de-b6e1-7e27d6a9713e",
+            "62accc1e-0c87-4b86-bd3b-c22a583b3f96",
+            "5e6e037e-f464-457c-99c7-f04af47cf520"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 42862,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/report/mochawesome-report",
+        "overwrite": "true",
+        "html": "true",
+        "json": "true",
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "5.2.0"
+    }
+  }
+}

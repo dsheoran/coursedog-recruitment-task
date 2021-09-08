@@ -1,0 +1,14 @@
+{
+    "testFiles": ["**/*.{feature,features}"],
+    "ignoreTestFiles": ["*.js", "*.ts", "*.md"],
+    "defaultCommandTimeout": 30000,
+    "reporter": "mochawesome",
+    "reporterOptions": {
+      "reportDir": "cypress/report/mochawesome-report",
+      "overwrite": "true",
+      "html": "true",
+      "json": "true",
+      "timestamp": "mmddyyyy_HHMMss"
+    },
+    "videoUploadOnPasses": false
+  }
